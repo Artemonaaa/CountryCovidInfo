@@ -1,0 +1,23 @@
+.covid-item-indexSign {
+   margin-left: 25px;
+ }
+
+.covid-item-indexSign::after {
+   content: '';
+   padding: 19px 0;
+   margin-left: 18px;
+   border-left: 1px solid #B2B2B2;
+}
+
+.search {
+   position: absolute;
+   width: 400px;
+   padding: 20px 0;
+   border: 1px solid rgba(0, 0, 0, 0.25);
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   top: 80px;
+   right: 600px;
+   box-shadow: none;
+   font-size: 34px
+}

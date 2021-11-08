@@ -1,0 +1,51 @@
+.covid-item {
+  display: grid;
+  grid-template-columns: 8% 75% 30%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.covid-item-index {
+  margin-left: 25px;
+}
+
+.covid-item-index::after {
+  content: '';
+  padding: 19px 0;
+  margin-left: 30px;
+  border-right: 1px solid #B2B2B2;
+}
+
+.covid-item-totalConfirmed::before {
+  content: '';
+  padding: 19px 0;
+  margin-right: 20px;
+  border-left: 1px solid #B2B2B2;
+}
+
+.modal-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-covid-totalInfo {
+  display: grid;
+  grid-template-columns: 8% 75% 30%;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: bold;
+  padding: 11px 70px;
+  background: #2196F3;
+  border-radius: 20px;
+  border: 0;
+  cursor: pointer;
+}

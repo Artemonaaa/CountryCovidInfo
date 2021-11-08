@@ -1,0 +1,13 @@
+.header {
+   margin-top: 10px;
+}
+
+.logo-static {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.static {
+   font-size: 64px;
+}
